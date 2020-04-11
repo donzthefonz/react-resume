@@ -13,38 +13,18 @@ export default class Resume extends Component {
                     <div className="nine columns main-col">
                         <div className="row item">
                             <div className="twelve columns">
-                                <h3>University of Life</h3>
-                                <p className="info">Master in Graphic Design <span>•</span> <em className="date">April
-                                    2007</em></p>
+                                <h3>University of Strathclyde</h3>
+                                <p className="info">B.Sc. - Computer Science <span>•</span> <em className="date">July
+                                    2016</em></p>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-                                    dolor. Aenean massa.
-                                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                                    mus. Donec quam felis,
-                                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum
-                                    felis eu pede mollis pretium.
+                                    Achieved a first class honours. Studying Computer Science has given me access to new
+                                    ways of thinking and the ability and confidence to break problems down, bit by bit,
+                                    until they are manageable.
                                 </p>
                             </div>
                         </div>
                         {/* item end */}
-                        <div className="row item">
-                            <div className="twelve columns">
-                                <h3>School of Cool Designers</h3>
-                                <p className="info">B.A. Degree in Graphic Design <span>•</span> <em className="date">March
-                                    2003</em></p>
-                                <p>
-                                    This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
-                                    aliquet.
-                                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-                                    sagittis sem
-                                    nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
-                                    accumsan
-                                    ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris
-                                    vitae erat
-                                </p>
-                            </div>
-                        </div>
+
                         {/* item end */}
                     </div>
                     {/* main-col end */}
@@ -59,35 +39,45 @@ export default class Resume extends Component {
                     <div className="nine columns main-col">
                         <div className="row item">
                             <div className="twelve columns">
-                                <h3>Awesome Design Studio</h3>
-                                <p className="info">Senior UX Designer <span>•</span> <em className="date">March 2010 -
-                                    Present</em></p>
+                                <h3>BSW</h3>
+                                <p className="info">Full-Stack Software Developer <span>•</span> <em className="date">Feb
+                                    2019 -
+                                    Apr 2020</em></p>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-                                    dolor. Aenean massa.
-                                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                                    mus. Donec quam felis,
-                                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                                    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum
-                                    felis eu pede mollis pretium.
+                                    I worked on a large variety of projects with this company, helping provide cutting
+                                    edge and scalable technologies to help support a large timber business. I was one of
+                                    the senior developers here, and would often work independently or take lead on a
+                                    project.
                                 </p>
+                                <p>
+                                    Some of the systems I created or worked on include:</p>
+                                <ul>
+                                    <li>Multiple APIs</li>
+                                    <li>Custom ERP System</li>
+                                    <li>Report Management Portal</li>
+                                    <li>Custom Workflow System</li>
+                                    <li>Multiple Custom Integrations</li>
+                                    <li>Data Parsing / Cleaning</li>
+                                    <li>Data / Website Scraping</li>
+                                    <li>Sharepoint Integrations</li>
+                                    <li>Documentation Portal with Elastic Search</li>
+                                </ul>
+
                             </div>
                         </div>
                         {/* item end */}
                         <div className="row item">
                             <div className="twelve columns">
-                                <h3>Super Cool Studio</h3>
-                                <p className="info">UX Designer <span>•</span> <em className="date">March 2007 -
-                                    February 2010</em></p>
+                                <h3>Cezanne HR</h3>
+                                <p className="info">Graduate Software Developer <span>•</span> <em className="date">Feb
+                                    2017 -
+                                    Apr 2018</em></p>
                                 <p>
-                                    This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
-                                    aliquet.
-                                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-                                    sagittis sem
-                                    nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
-                                    accumsan
-                                    ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris
-                                    vitae erat
+                                    Working in an Agile Development environment I helped to add functionality to a HR
+                                    management web-app mainly using C#, Javascript and SQL. This developed my
+                                    programming ability as well as my general ability to problem solve and to find the
+                                    most effective solutions. I worked well with my team and after 6 months
+                                    accepted a pay rise which recognised my ability to take charge of certain features.
                                 </p>
                             </div>
                         </div>
@@ -103,22 +93,43 @@ export default class Resume extends Component {
                         <h1><span>Skills</span></h1>
                     </div>
                     <div className="nine columns main-col">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem aperiam,
-                            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                            explicabo. Nemo enim ipsam
-                            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-                            dolores eos qui ratione
-                            voluptatem sequi nesciunt.
+                        <p>I have developed a wide variety of skills, both in and out of work, to ensure I'm always
+                            equipped to handle projects flexibly and propose proper solutions. I enjoy learning and push
+                            my capabilities day by day.
                         </p>
+
                         <div className="bars">
                             <ul className="skills">
-                                <li><span className="bar-expand photoshop"/><em>Photoshop</em></li>
-                                <li><span className="bar-expand illustrator"/><em>Illustrator</em></li>
-                                <li><span className="bar-expand wordpress"/><em>Wordpress</em></li>
-                                <li><span className="bar-expand css"/><em>CSS</em></li>
-                                <li><span className="bar-expand html5"/><em>HTML5</em></li>
-                                <li><span className="bar-expand jquery"/><em>jQuery</em></li>
+                                <h3> Backend</h3>
+                                <br></br>
+                                <li><span
+                                    className="bar-expand python"/><em> <i className="fab fa-python"></i>
+                                    &nbsp; Python
+                                </em></li>
+                                <li><span className="bar-expand sql"/><em> <i className="fas fa-database"></i>
+                                    &nbsp; SQL
+                                </em></li>
+                                <li><span className="bar-expand django"/><em> <i className="fas fa-server"></i>
+                                    &nbsp; Django
+                                </em></li>
+                                <li><span className="bar-expand database"/><em> <i className="fas fa-database"></i>
+                                    &nbsp; Relational Database Design
+                                </em></li>
+                                <li><span className="bar-expand api"/><em> <i className="fas fa-plug"></i>
+                                    &nbsp; REST APIs
+                                </em></li>
+                                <h3> Frontend</h3>
+                                <br></br>
+                                <li><span className="bar-expand html5"/><em> <i className="fab fa-html5"></i>
+                                    &nbsp; HTML5
+                                </em></li>
+                                <li><span className="bar-expand css"/><em><i className="fab fa-css3-alt"></i>
+                                    &nbsp; CSS
+                                </em></li>
+                                <li><span className="bar-expand javascript"/><em><i className="fab fa-js-square"></i>
+                                    &nbsp; JavaScript / jQuery
+                                </em></li>
+
                             </ul>
                         </div>
                         {/* end skill-bars */}

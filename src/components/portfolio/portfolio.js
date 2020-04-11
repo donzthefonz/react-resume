@@ -15,8 +15,8 @@ export default class Portfolio extends Component {
                                         <img alt="" src="images/portfolio/coffee.jpg"/>
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
-                                                <h5>Coffee</h5>
-                                                <p>Illustrration</p>
+                                                <h5>BitFund Trader</h5>
+                                                <p>Web App</p>
                                             </div>
                                         </div>
                                         <div className="link-icon"><i className="icon-plus"/></div>
@@ -30,8 +30,8 @@ export default class Portfolio extends Component {
                                         <img alt="" src="images/portfolio/console.jpg"/>
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
-                                                <h5>Console</h5>
-                                                <p>Web Development</p>
+                                                <h5>FTX Manager</h5>
+                                                <p>Command Line Tool</p>
                                             </div>
                                         </div>
                                         <div className="link-icon"><i className="icon-plus"/></div>
@@ -45,8 +45,8 @@ export default class Portfolio extends Component {
                                         <img alt="" src="images/portfolio/judah.jpg"/>
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
-                                                <h5>Judah</h5>
-                                                <p>Webdesign</p>
+                                                <h5>Time Guardian</h5>
+                                                <p>Web / Windows App</p>
                                             </div>
                                         </div>
                                         <div className="link-icon"><i className="icon-plus"/></div>
@@ -60,8 +60,8 @@ export default class Portfolio extends Component {
                                         <img alt="" src="images/portfolio/into-the-light.jpg"/>
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
-                                                <h5>Into The Light</h5>
-                                                <p>Photography</p>
+                                                <h5>Web Scraper</h5>
+                                                <p>Selenium</p>
                                             </div>
                                         </div>
                                         <div className="link-icon"><i className="icon-plus"/></div>

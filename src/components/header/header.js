@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 export default class Header extends Component {
     render() {
+        let resumeData = this.props.resumeData;
         return (
             <header id="home">
                 <nav id="nav-wrap">
@@ -20,21 +21,19 @@ export default class Header extends Component {
                 {/* end #nav-wrap */}
                 <div className="row banner">
                     <div className="banner-text">
-                        <h1 className="responsive-headline">Adam Alexander Don.</h1>
+                        {/*<h1 className="responsive-headline">I am</h1>*/}
+                        <h1 className="responsive-headline">{resumeData.name}</h1>
+                        <h2 className="responsive-headline">Full-Stack Developer</h2>
                         <h3>I'm a U.K.
-                            based freelance <span>web developer</span>, <span>programmer</span> and <span>tech wiz. </span> I specialise in creating
+                            based
+                            freelance <span>web developer</span>, <span>programmer</span> and <span>tech wiz. </span> I
+                            specialise in creating
                             effective, efficient and well structured projects that work for <span>you</span>. Let's <a
                                 className="smoothscroll" href="#about">start scrolling </a>
-                             and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
+                            and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
                         <hr/>
                         <ul className="social">
-                            <li><a href="#"><i className="fa fa-facebook"/></a></li>
-                            <li><a href="#"><i className="fa fa-twitter"/></a></li>
-                            <li><a href="#"><i className="fa fa-google-plus"/></a></li>
                             <li><a href="#"><i className="fa fa-linkedin"/></a></li>
-                            <li><a href="#"><i className="fa fa-instagram"/></a></li>
-                            <li><a href="#"><i className="fa fa-dribbble"/></a></li>
-                            <li><a href="#"><i className="fa fa-skype"/></a></li>
                         </ul>
                     </div>
                 </div>
