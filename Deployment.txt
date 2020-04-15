@@ -1,0 +1,5 @@
+Add: "homepage": "https://donzthefonz.github.io/react-resume/",
+to Package.json
+
+Run "npm run predeploy" - builds production
+Run "gh-pages -d build" - deploys to gh-pages branch. Would use "npm run deploy" as it should do the same but broken.

@@ -28,8 +28,8 @@ export default class Header extends Component {
                             based
                             freelance <span>web developer</span>, <span>programmer</span> and <span>tech wiz. </span> I
                             specialise in creating
-                            effective, efficient and well structured projects that work for <span>you</span>. Let's <a
-                                className="smoothscroll" href="#about">start scrolling </a>
+                            effective and efficient projects that work for <span>you</span>. <a
+                                className="smoothscroll" href="#about">Start scrolling </a>
                             and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
                         <hr/>
                         <ul className="social">

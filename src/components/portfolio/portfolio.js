@@ -6,8 +6,8 @@ export default class Portfolio extends Component {
             <section id="portfolio">
                 <div className="row">
                     <div className="twelve columns collapsed">
-                        <h1>Check Out Some of My Works.<br></br>If the GitHub link is missing it means a project is
-                            private. Please contact me if you want more details or require a code review.</h1>
+                        <h1>Check Out Some of My Work.<br></br></h1> <p>If the GitHub link is missing it means a project is
+                        private. Please contact me if you would like more information or require a code review.</p>
 
                         {/* portfolio-wrapper */}
                         <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
