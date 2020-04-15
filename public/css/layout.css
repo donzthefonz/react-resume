@@ -244,13 +244,19 @@ ul#nav li.current a {
 
 #about .profile-pic {
     position: relative;
-    width: 120px;
-    height: 120px;
+    margin-bottom: 50%;
+    margin-top: 50%;
+    /*margin-top: 30px;*/
+    width: 80%;
+    height: 80%;
+    /*width: 120px;*/
+    /*height: 120px;*/
     border-radius: 100%;
 }
 
 #about .contact-details {
-    width: 41.66667%;
+    /*width: 41.66667%;*/
+    width: 100%;
 }
 
 #about .download {

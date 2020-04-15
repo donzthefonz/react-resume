@@ -33,7 +33,9 @@ export default class Header extends Component {
                             and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
                         <hr/>
                         <ul className="social">
-                            <li><a href="#"><i className="fa fa-linkedin"/></a></li>
+                            <li><a href="https://www.linkedin.com/in/adamalexanderdon/"><i
+                                className="fab fa-linkedin"></i>
+                            </a></li>
                         </ul>
                     </div>
                 </div>

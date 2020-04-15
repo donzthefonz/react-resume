@@ -7,7 +7,7 @@ export default class About extends Component {
             <section id="about">
                 <div className="row">
                     <div className="three columns">
-                        <img className="profile-pic" src="images/adam-2.jpg" alt=""/>
+                        <img className="profile-pic" src="images/adam-profile-2.jpeg" alt=""/>
                     </div>
                     <div className="nine columns main-col">
                         <h2>About Me</h2>
@@ -18,17 +18,16 @@ export default class About extends Component {
                             <div className="columns contact-details">
                                 <h2>Contact Details</h2>
                                 <p className="address">
-                                    <span>Adam Alexander Don</span><br/>
+                                    <span>{resumeData.name}</span><br/>
                                     <span>Scotland</span><br/>
-                                    <span>07545335397</span><br/>
                                     <span>aadon94@gmail.com</span>
                                 </p>
                             </div>
-                            <div className="columns download">
-                                <p>
-                                    <a href="#" className="button"><i className="fa fa-download"/>Download Resume</a>
-                                </p>
-                            </div>
+                            {/*<div className="columns download">*/}
+                            {/*    <p>*/}
+                            {/*        <a href="#" className="button"><i className="fa fa-download"/>Download Resume</a>*/}
+                            {/*    </p>*/}
+                            {/*</div>*/}
                         </div>
                         {/* end row */}
                     </div>

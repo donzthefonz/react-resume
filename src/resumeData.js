@@ -1,11 +1,14 @@
 let resumeData = {
     "imagebaseurl": "http://localhost:3000/",
-    "name"        : "Adam Alexander Don",
-    "role"        : "Software Developer",
-    "aboutme"     : `I graduated with a first class degree in B.Sc (Computer Science) from the University of 
+    "name"        : "Adam Xander Don",
+    "town"        : "Duns",
+    "country"     : "Scotland",
+    "email"       : "aadon94@gmail.com",
+    "role"        : "Full Stack Software Developer",
+    "aboutme"     : `I graduated with a first class degree in Computer Science B.Sc from the University of 
                      Strathclyde in 2016. Since then I have been working in the software industry, building 
                      a portfolio and developing my strengths. A methodical mindset and creative imagination, paired with 
-                     excellent interpersonal skills, allow me tackle problems in a way that is completely customer centric.`
+                     strong interpersonal skills, allow me provide tailored solutions that work for you.`
 };
 export default resumeData;
 

@@ -18,7 +18,7 @@ function App() {
             <Resume/>
             <Portfolio/>
             <Testimonials/>
-            <ContactUs/>
+            <ContactUs resumeData={resumeData}/>
             <Footer/>
         </div>
     );

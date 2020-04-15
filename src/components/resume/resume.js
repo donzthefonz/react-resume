@@ -14,12 +14,15 @@ export default class Resume extends Component {
                         <div className="row item">
                             <div className="twelve columns">
                                 <h3>University of Strathclyde</h3>
-                                <p className="info">B.Sc. - Computer Science <span>•</span> <em className="date">July
+                                <p className="info">Computer Science B.Sc. <span>•</span> <em className="date">July
                                     2016</em></p>
                                 <p>
                                     Achieved a first class honours. Studying Computer Science has given me access to new
                                     ways of thinking and the ability and confidence to break problems down, bit by bit,
                                     until they are manageable.
+                                </p>
+                                <p>
+                                    It was here I was taught best practices in systems design and programming patterns.
                                 </p>
                             </div>
                         </div>
@@ -44,23 +47,20 @@ export default class Resume extends Component {
                                     2019 -
                                     Apr 2020</em></p>
                                 <p>
-                                    I worked on a large variety of projects with this company, helping provide cutting
-                                    edge and scalable technologies to help support a large timber business. I was one of
-                                    the senior developers here, and would often work independently or take lead on a
-                                    project.
+                                    I worked on numerous projects with this company, helping provide cutting
+                                    edge and scalable technologies to help support their business. I was one of
+                                    the senior developers here, and would often work independently or take lead on
+                                    projects.
                                 </p>
                                 <p>
-                                    Some of the systems I created or worked on include:</p>
+                                    Some of the custom built systems I created or worked on include:</p>
                                 <ul>
-                                    <li>Multiple APIs</li>
-                                    <li>Custom ERP System</li>
-                                    <li>Report Management Portal</li>
-                                    <li>Custom Workflow System</li>
-                                    <li>Multiple Custom Integrations</li>
-                                    <li>Data Parsing / Cleaning</li>
-                                    <li>Data / Website Scraping</li>
-                                    <li>Sharepoint Integrations</li>
+                                    <li>ERP System</li>
                                     <li>Documentation Portal with Elastic Search</li>
+                                    <li>Workflow System</li>
+                                    <li>Multiple Integrations (inc. SharePoint)</li>
+                                    <li>Data Parsing / Cleaning</li>
+                                    <li>Data / Web Scraping</li>
                                 </ul>
 
                             </div>
@@ -68,6 +68,7 @@ export default class Resume extends Component {
                         {/* item end */}
                         <div className="row item">
                             <div className="twelve columns">
+                                <br></br>
                                 <h3>Cezanne HR</h3>
                                 <p className="info">Graduate Software Developer <span>•</span> <em className="date">Feb
                                     2017 -
@@ -93,9 +94,9 @@ export default class Resume extends Component {
                         <h1><span>Skills</span></h1>
                     </div>
                     <div className="nine columns main-col">
-                        <p>I have developed a wide variety of skills, both in and out of work, to ensure I'm always
-                            equipped to handle projects flexibly and propose proper solutions. I enjoy learning and push
-                            my capabilities day by day.
+                        <p>I have developed a wide variety of skills, both in and out of work, and enjoy pushing my
+                            abilities so that I'm well equipped to handle non trivial projects. Not everything is a
+                            nail, different problems require different solutions.
                         </p>
 
                         <div className="bars">
