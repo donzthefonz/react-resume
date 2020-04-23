@@ -12,8 +12,8 @@ export default class Header extends Component {
                         <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                         <li><a className="smoothscroll" href="#about">About</a></li>
                         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-                        <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-                        <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+                        <li><a className="smoothscroll" href="#portfolio">My Work</a></li>
+                        {/*<li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>*/}
                         <li><a className="smoothscroll" href="#contact">Contact</a></li>
                     </ul>
                     {/* end #nav */}
@@ -23,19 +23,22 @@ export default class Header extends Component {
                     <div className="banner-text">
                         {/*<h1 className="responsive-headline">I am</h1>*/}
                         <h1 className="responsive-headline">{resumeData.name}</h1>
-                        <h2 className="responsive-headline">Full-Stack Developer</h2>
-                        <h3>I'm a U.K.
+                        {/*<h2 className="responsive-headline">Full-Stack Developer</h2>*/}
+                        <h3>I'm a UK
                             based
-                            freelance <span>web developer</span>, <span>programmer</span> and <span>tech wiz. </span> I
-                            specialise in creating
-                            effective and efficient projects that work for <span>you</span>. <a
-                                className="smoothscroll" href="#about">Start scrolling </a>
+                            <span> full-stack developer</span>.<br/> I
+                            <span> love </span>automating things and I
+                            <span> love </span>learning.<br/> <a className="smoothscroll" href="#about">Start
+                                scrolling </a>
                             and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
                         <hr/>
                         <ul className="social">
-                            <li><a href="https://www.linkedin.com/in/adamalexanderdon/"><i
-                                className="fab fa-linkedin"></i>
-                            </a></li>
+                            <li><a href="https://www.linkedin.com/in/adamxanderdon/"><i
+                                className="fab fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/donzthefonz"><i className="fab fa-github-square"></i></a>
+                            </li>
+                            <li><a href="https://twitter.com/adamXanderDon"><i
+                                className="fab fa-twitter-square"></i></a></li>
                         </ul>
                     </div>
                 </div>

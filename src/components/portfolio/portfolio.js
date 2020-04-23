@@ -6,8 +6,8 @@ export default class Portfolio extends Component {
             <section id="portfolio">
                 <div className="row">
                     <div className="twelve columns collapsed">
-                        <h1>Check Out Some of My Work.<br></br></h1> <p>If the GitHub link is missing it means a project is
-                        private. Please contact me if you would like more information or require a code review.</p>
+                        <h1>My Work<br></br></h1> <p>Some of the code repositories are private, please email me if you
+                        require more information.</p>
 
                         {/* portfolio-wrapper */}
                         <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
@@ -141,15 +141,22 @@ export default class Portfolio extends Component {
                         <img className="scale-with-grid" src="images/portfolio/modals/trading.jpg" alt=""/>
                         <div className="description-box">
                             <h4>BitFund Trader</h4>
-                            <p>As project for myself and friends, I built a web app which would allow users to subscribe
-                                to algorithmic trading signals and connect them to their exchange account. The
-                                application would then buy and sell assets based on these signals. The trading
-                                strategies are based on rules which are back-tested thoroughly and so far have provided
-                                great returns. </p>
+                            <span>Problem: </span>
+                            <p> The CryptoCurrency market is still a relatively new asset class and therefore has less
+                                efficient markets than traditional ones. Because of that, there are inefficiencies which
+                                can be exploited via trading. But I didn't want to spend my time
+                                trading. I'm a coder...</p>
+                            <br/>
+                            <span>Solution: </span>
+                            <p> At the end of 2019, I built a web app which would allow myself and friends to
+                                subscribe to algorithmic trading signals and connect them to their exchange account. The
+                                application would then automatically buy and sell assets based on these signals. The
+                                trading strategies are based on rules which are back-tested thoroughly and so far have
+                                provided good returns. </p>
                             <span className="categories"><i className="fa fa-tag"/> Django, Web App, Python, SQL, Trading</span>
                         </div>
                         <div className="link-box">
-                            <a href="https://github.com/donzthefonz/bitfund">GitHub</a>
+                            {/*<a href="https://github.com/donzthefonz/bitfund">GitHub</a>*/}
                             <a className="popup-modal-dismiss">Close</a>
                         </div>
                     </div>

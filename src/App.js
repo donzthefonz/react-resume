@@ -17,7 +17,7 @@ function App() {
             <About resumeData={resumeData}/>
             <Resume/>
             <Portfolio/>
-            <Testimonials/>
+            {/*<Testimonials/>*/}
             <ContactUs resumeData={resumeData}/>
             <Footer/>
         </div>
